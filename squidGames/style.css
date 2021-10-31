@@ -101,3 +101,29 @@
     margin: auto;
     margin-top: 15px;
 }
+
+.triangle {
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid rgba(255, 255, 255, 0.75);
+    border-left: 40px solid transparent;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+}
+
+.triangleInner {
+    border-right: 24px solid transparent;
+    border-bottom: 42px solid #000;
+    border-left: 24px solid transparent;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+}
