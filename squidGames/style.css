@@ -88,5 +88,16 @@
     border-right: 10px solid rgba(255, 255, 255, 0.75);
     margin: auto;
     margin-top: 15px;
+}
 
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-top: 10px solid rgba(255, 255, 255, 0.75);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.75);
+    border-left: 10px solid rgba(255, 255, 255, 0.75);
+    border-right: 10px solid rgba(255, 255, 255, 0.75);
+    margin: auto;
+    margin-top: 15px;
 }
