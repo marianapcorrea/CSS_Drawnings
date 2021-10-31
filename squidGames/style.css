@@ -3,13 +3,13 @@
     justify-content: space-around;
     margin: 200px;
 }
-
+/*Estiliza o capus, borda externa e preeenchimento*/
 .hoodie {
     background-color: #b93d51;
     height: 300px;
     width: 225px;
     border: 4px solid darkred;
-    border-top-right-radius: 50%;
+    border-top-right-radius: 50%;  /*Arredonda as bordas superiores para o manto*/
     border-top-left-radius: 50%;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -18,7 +18,7 @@
     align-items: center;
     margin: 0 50px;
 }
-
+/*Estiliza o capus, borda interna*/
 .hoodieInner {
     height: 234px;
     width: 192px;
@@ -29,12 +29,12 @@
     align-items: center; 
     overflow: visible;
     border: 4px solid darkred;
-        border-top-right-radius: 45%;
+    border-top-right-radius: 45%;
     border-top-left-radius: 45%;
     border-bottom-right-radius: 54%;
     border-bottom-left-radius: 54%; 
 }
-
+/* Estilização da área preta da  máscara dos guardas*/
 .guard {
     height: 220px;
     width: 185px;
@@ -51,7 +51,7 @@
     border-bottom-left-radius: 54%; 
     border: 6px solid #000;
 }
-
+/*Esse elemento dividiu a máscara em duas partes, o que permitiu a inserção das linhas horizontal e vertical*/
 .maskframe {
     display: grid;
     justify-content: center;
@@ -78,7 +78,7 @@
     width: 14px;
     margin-bottom: 10px;
 }
-
+/*Quadrado. Para sua obtenção, bastou a estilização de bordas sólidas*/
 .square {
     height: 40px;
     width: 40px;
@@ -89,7 +89,7 @@
     margin: auto;
     margin-top: 15px;
 }
-
+/*Círculo. Utilizei a estilização do quadrado, apenas acrescentando o border-radius de 50% para arredondamento das bordas.*/
 .circle {
     height: 40px;
     width: 40px;
@@ -101,7 +101,7 @@
     margin: auto;
     margin-top: 15px;
 }
-
+/*Estilização do Triângulo. Para conseguir o formato, utilizei apenas as bordas left, right e bottom. A asuência da borda top permitiy que as abas laterais se encontrassem.*/
 .triangle {
     border-right: 40px solid transparent;
     border-bottom: 60px solid rgba(255, 255, 255, 0.75);
@@ -111,10 +111,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 0;
+    width: 0; /* Foi necessário determinar a altura e largura como zero para conseguir o resultádo de triângulo (caso contrário, só conseguiria um trapézio com as dimensões do contaner.*/
     height: 0;
 }
-
+/*Precisei fazer um novo tríângulo, proporcionalmente menor e com preenchumento da cor da máscara, para obter o efeito 'vazado'.*/
 .triangleInner {
     border-right: 24px solid transparent;
     border-bottom: 42px solid #000;
