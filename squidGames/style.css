@@ -4,8 +4,11 @@ body {
 
 .characters {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 200px;
+    height: 600px;
+    align-items: center;
+    width: 200px;
 }
 /*Estiliza o capus, borda externa e preeenchimento*/
 .hoodie {
