@@ -1,3 +1,11 @@
+body{
+    display: flex;
+}
+
+.emoji {
+    margin: 40px auto;
+}
+
 .bigCircle {
     width: 200px;
     height: 200px;
@@ -11,7 +19,6 @@
     height: 50px;
     background-color: black;
     border-radius: 50%;
-
 }
 
 .eyes {
