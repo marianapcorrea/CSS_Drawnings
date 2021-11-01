@@ -31,13 +31,10 @@ body{
 .mouthHappy {
     width: 90px;
     height: 40px;
-    border-bottom-left-radius: 80px;
+    border-bottom-left-radius: 80px;  /*Define o arrdondamento da borda, para criar o efeito de semicírculo, modificando olado oposto à abertura*/
     border-bottom-right-radius: 80px;
     border: 3px solid black;
-    border-top: 0;
-    display: flex;
-    align-content: space-between;
-    justify-content: space-around;
+    border-top: 0; /*O lado para o qual se quer a abertura deve ser definido como zero.*/
     margin: auto;
     margin-top: 15px;
 }
@@ -49,9 +46,6 @@ body{
     border-top-right-radius: 80px;
     border: 3px solid black;
     border-bottom: 0;
-    display: flex;
-    align-content: space-between;
-    justify-content: space-around;
     margin: auto;
     margin-top: 15px;
 }
