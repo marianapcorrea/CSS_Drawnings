@@ -1,14 +1,14 @@
 .bigCircle {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     background-color:  gold;
     border: 3px solid black;
     border-radius: 50%;
 }
 
 .eye {
-    width: 70px;
-    height: 100px;
+    width: 30px;
+    height: 50px;
     background-color: black;
     border-radius: 50%;
 
@@ -18,20 +18,33 @@
     display: flex;
     align-content: space-between;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 45px;
 }
 
-.mouth {
-    width: 215px;
-    height: 108px;
-    border-bottom-left-radius: 110px;
-    border-bottom-right-radius: 110px;
+.mouthHappy {
+    width: 90px;
+    height: 40px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
     border: 3px solid black;
     border-top: 0;
     display: flex;
     align-content: space-between;
     justify-content: space-around;
-    margin-top: 200px;
     margin: auto;
-    margin-top: 74px;
+    margin-top: 15px;
+}
+
+.mouthSad {
+    width: 90px;
+    height: 40px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border: 3px solid black;
+    border-bottom: 0;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 15px;
 }
