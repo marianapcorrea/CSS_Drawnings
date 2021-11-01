@@ -1,0 +1,37 @@
+.bigCircle {
+    width: 500px;
+    height: 500px;
+    background-color:  gold;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.eye {
+    width: 70px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.eyes {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.mouth {
+    width: 215px;
+    height: 108px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 3px solid black;
+    border-top: 0;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin: auto;
+    margin-top: 74px;
+}
