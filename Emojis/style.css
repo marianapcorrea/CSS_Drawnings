@@ -148,3 +148,36 @@
 .eyeRight {
     left: 12px;
 }
+
+#ScaredFace .bigCircle {
+    background: linear-gradient(#3e92a2 10%, gold 70%)
+}
+
+.mouthScared {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 60px;
+}
+
+.mouthScaredTop {
+    position: absolute;
+    width: 66px;
+    margin-bottom: 2px;
+    height: 40px;
+    background-color: black;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+.mouthScaredBottom {    
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    background-color: gold;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
