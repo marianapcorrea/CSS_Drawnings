@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(142, 145, 138);
+}
+
+.container {
+    background-color: rgb(255, 230, 0);
+    border: 30px solid black;
+    border-radius: 50%;
+    margin: 200px auto;
+    height: 510px;
+    width: 930px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBatman {
+    width: 900px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.top, .middle, .external, .internal  {
+    border-radius: 50%;
+    background-color: rgb(255, 230, 0);
+}
+
+.top {
+    width: 250px;
+    height: 255px;
+    margin: -70px 50px;
+}
+
+.middle {
+    width: 130px;
+    height: 118px;
+    margin: 6px -115px;
+}
+
+.bottom {
+    display: flex;
+    position: absolute;
+}
+
+.external {
+    width: 170px;
+    height: 230px;
+    margin: 310px -30px;
+}
+
+.internal {    
+    width: 200px;
+    height: 300px;
+    margin: 375px 0px;
+}
