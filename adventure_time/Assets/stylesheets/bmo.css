@@ -1,0 +1,66 @@
+:root {
+  --border: 2px solid #0f3229;
+  --borderColor: #0f3229;
+  --buttonColor: #0a456e;
+}
+.bmo.body {
+  background-color: #4ab59a;
+  height: 350px;
+  width: 250px;
+  border: var(--border);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.bmo.face {
+  background-color: #adf3be;
+  height: 150px;
+  width: 200px;
+  margin: 20px auto;
+  border: var(--border);
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.bmo.eye {
+  height: 4px;
+  width: 10px;
+  display: inline-block;
+  margin: 45px 39px 0;
+  border: 5px solid var(--borderColor);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom: 0;
+}
+
+.bmo.mouth,
+.bmo.teeth {
+  width: 55px;
+  border: var(--border);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.bmo.mouth {
+  margin: 20px auto 0;
+  background-color: #126851;
+  height: 30px;
+}
+
+.bmo.teeth {
+  background-color: whitesmoke;
+  height: 5px;
+  margin: -2px 0 0 -2px;
+}
+
+.bmo.tongue {
+  background-color: #9c9f8b;
+  margin: 10px auto;
+  height: 10px;
+  width: 41px;
+  border: var(--border);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
