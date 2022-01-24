@@ -1,0 +1,23 @@
+body {
+  background-color: thistle;
+  height: 900px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 870px;
+}
+
+.charactersWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.SecondLine {
+  margin-bottom: 20px;
+}
