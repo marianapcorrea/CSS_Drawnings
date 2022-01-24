@@ -2,7 +2,7 @@
   --skin: #f7c233;
   --border: 2px solid black;
 }
-.body {
+.jake.body {
   background-color: var(--skin);
   width: 285px;
   height: 285px;
@@ -12,7 +12,7 @@
   z-index: 1;
 }
 
-.ear {
+.jake.ear {
   width: 20px;
   height: 30px;
   border: var(--border);
@@ -25,7 +25,7 @@
   z-index: 2;
 }
 
-.eyes {
+.jake.eyes {
   display: flex;
   margin-top: 50px;
   margin-left: 65px;
@@ -33,7 +33,7 @@
   z-index: 2;
 }
 
-.eye {
+.jake.eye {
   background-color: black;
   width: 90px;
   height: 90px;
@@ -41,7 +41,7 @@
   margin-right: 50px;
 }
 
-.eyeInner {
+.jake.eyeInner {
   background-color: white;
   width: 72px;
   height: 80px;
@@ -50,7 +50,7 @@
   margin-top: 4px;
 }
 
-.mouth {
+.jake.mouth {
   width: 15px;
   height: 5px;
   border: var(--border);
@@ -63,7 +63,7 @@
   z-index: 5;
 }
 
-.snout {
+.jake.snout {
   background-color: var(--skin);
   width: 95px;
   height: 80px;
@@ -75,7 +75,7 @@
   z-index: 4;
 }
 
-.snoutInner {
+.jake.snoutInner {
   background-color: var(--skin);
   width: 56px;
   height: 80px;
@@ -86,7 +86,7 @@
   z-index: 5;
 }
 
-.snoutInnerCurve {
+.jake.snoutInnerCurve {
   width: 52px;
   height: 55px;
   margin-left: 135px;
@@ -97,12 +97,12 @@
   z-index: 6;
 }
 
-.snoutInnerCurve.right {
+.jake.snoutInnerCurve.right {
   transform: rotateY(180deg);
   margin-left: 185px;
 }
 
-.nose {
+.jake.nose {
   background-color: black;
   width: 45px;
   height: 30px;
