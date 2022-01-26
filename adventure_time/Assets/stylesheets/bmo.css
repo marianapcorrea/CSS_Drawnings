@@ -3,6 +3,7 @@
   --borderColor: #0f3229;
   --buttonColor: #0a456e;
 }
+
 .bmo.body {
   background-color: #4ab59a;
   height: 350px;
@@ -63,4 +64,35 @@
   border: var(--border);
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
+}
+
+.bmo.insertSpace {
+  height: 12px;
+  width: 100px;
+  background-color: var(--borderColor);
+  margin-left: 25px;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 3;
+}
+
+.bmo.button {
+  width: 10px;
+  height: 10px;
+  border: var(--border);
+  border-radius: 50%;
+  background-color: var(--buttonColor);
+  margin-left: 190px;
+  position: absolute;
+  z-index: 3;
+}
+
+.bmo.buttons .button {
+  width: 20px;
+  height: 7px;
+  border: var(--border);
+  border-radius: 10px;
+  background-color: var(--buttonColor);
+  margin: 100px 10px 0 0;
+  display: inline-block;
 }
