@@ -128,3 +128,40 @@
   margin: 42px 0 0 47px;
   z-index: 5;
 }
+
+.bmo.triangle,
+.bmo.triangleInner {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.bmo.triangle {
+  border-width: 0px 20px 25px 20px;
+  border-color: transparent transparent var(--borderColor) transparent;
+  margin: 65px 0 0 140px;
+}
+
+.bmo.triangleInner {
+  border-width: 0 16px 21px 16px;
+  border-color: transparent transparent #63c9ef transparent;
+  margin: -23px 0 0 144px;
+}
+
+.bmo.smallCircle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: var(--border);
+  background-color: #64cb2a;
+  margin: 0px 0 0 195px;
+}
+
+.bmo.bigCircle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: var(--border);
+  background-color: #e5485c;
+  margin: -10px 0 20px 135px;
+}
