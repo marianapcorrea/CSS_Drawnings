@@ -87,12 +87,44 @@
   z-index: 3;
 }
 
+.bmo.buttons {
+  margin: 105px 0 0 25px;
+  position: absolute;
+  z-index: 4;
+}
+
 .bmo.buttons .button {
   width: 20px;
   height: 7px;
   border: var(--border);
   border-radius: 10px;
   background-color: var(--buttonColor);
-  margin: 100px 10px 0 0;
+  margin-right: 10px;
   display: inline-block;
+}
+
+.bmo.cross .vertical,
+.bmo.cross .horizontal,
+.bmo.cross .verticalUp {
+  background-color: yellow;
+  width: 15px;
+  height: 40px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.bmo.cross .vertical,
+.bmo.cross .horizontal {
+  margin: 40px 0 0 45px;
+  border: var(--border);
+  z-index: 4;
+}
+
+.bmo.cross .horizontal {
+  transform: rotate(90deg);
+}
+
+.bmo.cross .verticalUp {
+  margin: 42px 0 0 47px;
+  z-index: 5;
 }
