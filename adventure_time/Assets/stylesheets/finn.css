@@ -1,0 +1,55 @@
+:root {
+  --border: 2px solid black;
+}
+.finn.hood {
+  background-color: white;
+  width: 345px;
+  height: 280px;
+  border-radius: 45%;
+  border: var(--border);
+  position: absolute;
+  margin-right: 50px;
+}
+
+.finn.horns .left,
+.finn.horns .right {
+  background-color: white;
+  width: 45px;
+  height: 75px;
+  border-radius: 45%;
+  border: var(--border);
+  position: absolute;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+.finn.horns .right {
+  margin-left: 280px;
+}
+
+.finn.horns .left .inner,
+.finn.horns .right .inner {
+  background-color: white;
+  width: 46px;
+  height: 55px;
+  position: absolute;
+  z-index: 2;
+}
+
+.finn.horns .left .inner {
+  margin: 25px 0 0 2px;
+}
+
+.finn.horns .right .inner {
+  margin: 25px 0px 0 -3px;
+}
+
+.finn.face {
+  background-color: #f6ccb2;
+  width: 250px;
+  height: 190px;
+  border-radius: 45%;
+  border: var(--border);
+  position: absolute;
+  margin: 45px;
+}
