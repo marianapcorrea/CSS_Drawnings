@@ -10,8 +10,7 @@
   width: 250px;
   border: var(--border);
   border-radius: 10px;
-  position: relative;
-  z-index: 1;
+  position: absolute;
 }
 
 .bmo.face {
@@ -21,8 +20,6 @@
   margin: 20px auto;
   border: var(--border);
   border-radius: 10px;
-  position: relative;
-  z-index: 2;
 }
 
 .bmo.eye {
