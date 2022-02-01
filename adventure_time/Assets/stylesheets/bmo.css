@@ -45,6 +45,7 @@
   margin: 20px auto 0;
   background-color: #126851;
   height: 30px;
+  overflow: hidden;
 }
 
 .bmo.teeth {
@@ -55,7 +56,7 @@
 
 .bmo.tongue {
   background-color: #9c9f8b;
-  margin: 10px auto;
+  margin: 12px auto;
   height: 10px;
   width: 41px;
   border: var(--border);
