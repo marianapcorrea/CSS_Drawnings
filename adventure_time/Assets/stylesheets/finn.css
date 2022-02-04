@@ -62,6 +62,7 @@
   z-index: 2;
   position: absolute;
   margin: 35px 0 0 35px;
+  overflow: hidden;
 }
 
 .finn.eye.right {
@@ -90,4 +91,30 @@
   border: var(--border);
   border-top-left-radius: 50px;
   border-top-right-radius: 100px;
+}
+
+.finn.eye.right .light .small,
+.finn.eye.right .light .big,
+.finn.eye .light .small,
+.finn.eye .light .big {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.finn.eye .light .small,
+.finn.eye.right .light .small {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 20px;
+}
+
+.finn.eye .light .big,
+.finn.eye.right .light .big {
+  height: 30px;
+  width: 30px;
+}
+
+.finn.eye.right .light {
+  transform: rotate(180deg);
 }
