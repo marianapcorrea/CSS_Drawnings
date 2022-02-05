@@ -4,9 +4,9 @@
 .finn.hood {
   background-color: white;
   width: 345px;
-  height: 280px;
+  height: 250px;
   border-radius: 45%;
-  border: var(--border);
+  border: var(--borderFinn);
   position: absolute;
   margin-right: 100px;
 }
@@ -105,17 +105,38 @@
   margin: 80px 0px 0 90px;
   background-color: #651f0b;
   height: 30px;
-  position: absolute;
-  z-index: 3;
   overflow: hidden;
+  display: flex;
+  position: absolute;
 }
 
 .finn.tongue {
   background-color: #f47a74;
-  margin: 15px 5px;
+  margin: 15px 10px 0 0;
   height: 15px;
   width: 40px;
   border: var(--borderFinn);
   border-top-left-radius: 50px;
   border-top-right-radius: 100px;
+  position: absolute;
+}
+
+.finn.teeths {
+  display: flex;
+}
+
+.finn.teeths .teeth {
+  background-color: white;
+  border: var(--borderFinn);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 10px;
+  height: 12px;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.finn.teeths .teeth.one {
+  left: 10px;
 }
