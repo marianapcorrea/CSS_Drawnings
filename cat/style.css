@@ -22,14 +22,6 @@ body {
     margin: 100px;
 }
 
-.head {
-    background: var(--fur);
-    height:250px;
-    width: 350px;
-    border-radius: 80px;
-    z-index: 10;
-}
-
 .ears {
     display: flex;
 }
@@ -46,6 +38,10 @@ body {
     margin: 0 -30px 0 95px;
 }
 
+.earLeft {
+    transform: rotateY(180deg);
+}
+
 .inner {
     width: 0;
     height: 0;
@@ -58,9 +54,37 @@ body {
     margin: 0 -30px 0 95px;
 }
 
-.left {
-    transform: rotateY(180deg);
+.head {
+    background: var(--fur);
+    height:250px;
+    width: 350px;
+    border-radius: 80px;
+    z-index: 10;
 }
+
+.eyes{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin: 60px 60px 0;
+}
+
+.eye {
+background: #000;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+border: 8px solid #d59208;
+}
+
+.nose {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 25px 0 25px;
+        border-color:var(--pink) transparent transparent transparent;
+        margin: 0 145px;
+} 
 
 .body {
     background: var(--fur);
@@ -96,3 +120,5 @@ body {
     margin-left: 325px;
     position: absolute;
 }
+
+
