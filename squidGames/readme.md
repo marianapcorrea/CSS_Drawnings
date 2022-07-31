@@ -1,3 +1,5 @@
+![ ](/squidGames/squadGamesGuards.png)
+
 Exercicio de posicionamento e estilizaçao de elementos, com o fim de criar os tres tipos de guardas de Squad Games usando apenas CSS puro.
 
 Status: **FINALIZADO**
