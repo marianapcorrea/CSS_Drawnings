@@ -25,13 +25,14 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
     align-items: center;
     justify-content: flex-end;
 }
 
 .star {
-    position: relative;
-    display: block;
+    position: absolute;
+    top: 16%;
     width: 0px;
     height: 0px;
     border-right: 70px solid transparent;
@@ -71,7 +72,7 @@ body {
 .star-bright {
     position: absolute;
     z-index: -1;
-    top: 0px;
+    top: 5%;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -84,34 +85,36 @@ body {
     height: 0;
     border-style: solid;
     border-color: transparent transparent #0e7a3a transparent;
-    position: relative;
+    position: absolute;
 }
 
 .t-one {
     border-width: 0 200px 200px 200px;
+    top: 20%;
 }
 
 .t-two {
     border-width: 0 300px 200px 300px;
-    top: -80px;
+    top: 30%;
 }
 
 .t-three {
     border-width: 0 400px 200px 400px;
-    top: -160px;
+    top: 40%;
 }
 
 .t-four {
     border-width: 0 500px 300px 500px;
-    top: -300px;
+    top: 45%;
 }
 
 .base {
-    position: relative;
-    top: -300px;
+    position: absolute;
+    top: 68%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: -1;
 }
 
 .base .trunk {
@@ -166,46 +169,46 @@ body {
 }
 
 .b1 {
-    bottom: 75%;
+    bottom: 65%;
     left: 52%;
 }
 
 .b2 {
-    bottom: 70%;
+    bottom: 60%;
     left: 44%;
 }
 
 .b3 {
-    bottom: 65%;
+    bottom: 55%;
     left: 55%;
 }
 
 .b4 {
-    bottom: 61%;
+    bottom: 51%;
     left: 49%;
 }
 
 .b5 {
-    bottom: 55%;
+    bottom: 45%;
     left: 40%;
 }
 
 .b6 {
-    bottom: 50%;
+    bottom: 40%;
     left: 52%;
 }
 
 .b7 {
-    bottom: 45%;
+    bottom: 35%;
     left: 35%;
 }
 
 .b8 {
-    bottom: 42%;
+    bottom: 32%;
     left: 45%;
 }
 
 .b9 {
-    bottom: 45%;
+    bottom: 35%;
     left: 60%;
 }
