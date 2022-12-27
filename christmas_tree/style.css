@@ -35,22 +35,21 @@ body {
     top: 16%;
     width: 0px;
     height: 0px;
-    border-right: 70px solid transparent;
-    border-bottom: 40px solid #f9b70b;
-    border-left: 70px solid transparent;
+    border-right: 4.3rem solid transparent;
+    border-bottom: 2.5rem solid #f9b70b;
+    border-left: 4.3rem solid transparent;
     transform: rotate(35deg);
 }
 
 .star:before {
-    border-bottom: 50px solid #f9b70b;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
+    border-bottom: 3.15rem solid #f9b70b;
+    border-left: 1.25rem solid transparent;
+    border-right: 1.25rem solid transparent;
     position: absolute;
     height: 0;
     width: 0;
     top: -39px;
     left: -45px;
-    display: block;
     content: "";
     transform: rotate(-35deg);
 }
@@ -62,9 +61,9 @@ body {
     left: -73px;
     width: 0px;
     height: 0px;
-    border-right: 70px solid transparent;
-    border-bottom: 40px solid #f9b70b;
-    border-left: 70px solid transparent;
+    border-right: 4.37rem solid transparent;
+    border-bottom: 2.5rem solid #f9b70b;
+    border-left: 4.37rem solid transparent;
     transform: rotate(-70deg);
     content: "";
 }
@@ -73,8 +72,8 @@ body {
     position: absolute;
     z-index: -1;
     top: 5%;
-    width: 300px;
-    height: 300px;
+    width: 19rem;
+    height: 19rem;
     border-radius: 50%;
     background-color: #eee286;
     filter: blur(50px);
@@ -89,28 +88,28 @@ body {
 }
 
 .t-one {
-    border-width: 0 200px 200px 200px;
+    border-width: 0 10rem 10rem;
     top: 20%;
 }
 
 .t-two {
-    border-width: 0 300px 200px 300px;
+    border-width: 0 15rem 10rem 15rem;
     top: 30%;
 }
 
 .t-three {
-    border-width: 0 400px 200px 400px;
+    border-width: 0 20rem 10rem 20rem;
     top: 40%;
 }
 
 .t-four {
-    border-width: 0 500px 300px 500px;
+    border-width: 0 25rem 14rem 25rem;
     top: 45%;
 }
 
 .base {
     position: absolute;
-    top: 68%;
+    top: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,16 +117,16 @@ body {
 }
 
 .base .trunk {
-    width: 100px;
-    height: 60px;
+    width: 6.25rem;
+    height: 3.75rem;
     background-color: #502207;
     box-shadow: 0 0 5px #391a08;
     border: 3px solid #391a08;
 }
 
 .base .border {
-    width: 190px;
-    height: 50px;
+    width: 11.9rem;
+    height: 3.125rem;
     background-color: #8e0002;
     border: 5px solid #620a0b;
     border-radius: 5px;
@@ -135,8 +134,8 @@ body {
 }
 
 .base .bottom {
-    width: 170px;
-    height: 100px;
+    width: 10.6rem;
+    height: 6.25rem;
     background-color: #8e0002;
     border: 5px solid #620a0b;
     box-shadow: 0 0 5px #630808;
@@ -147,8 +146,8 @@ body {
 
 .ball {
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     background-color: #cf0f0f;
     box-shadow: 0 0 5px #630808;
@@ -169,46 +168,46 @@ body {
 }
 
 .b1 {
-    bottom: 65%;
+    bottom: 67%;
     left: 52%;
 }
 
 .b2 {
-    bottom: 60%;
+    bottom: 63%;
     left: 44%;
 }
 
 .b3 {
-    bottom: 55%;
-    left: 55%;
+    bottom: 57%;
+    left: 57%;
 }
 
 .b4 {
-    bottom: 51%;
+    bottom: 53%;
     left: 49%;
 }
 
 .b5 {
-    bottom: 45%;
+    bottom: 55%;
     left: 40%;
 }
 
 .b6 {
-    bottom: 40%;
-    left: 52%;
+    bottom: 45%;
+    left: 56%;
 }
 
 .b7 {
-    bottom: 35%;
+    bottom: 40%;
     left: 35%;
 }
 
 .b8 {
-    bottom: 32%;
+    bottom: 42%;
     left: 45%;
 }
 
 .b9 {
     bottom: 35%;
-    left: 60%;
+    left: 64%;
 }
