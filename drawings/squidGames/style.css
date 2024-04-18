@@ -1,5 +1,8 @@
 body {
     background:linear-gradient( rgb(86, 204, 219), rgb(124, 139, 141));
+
+    overflow: hidden;
+    max-height: 100vh;
 }
 
 .characters {
@@ -133,4 +136,27 @@ body {
     align-items: center;
     width: 0;
     height: 0;
+}
+
+
+main{
+  padding: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: #134e4e;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:active, a:visited, a:link {
+    color: white;
+    text-decoration: none;
 }

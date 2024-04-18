@@ -1,6 +1,10 @@
 body {
     background-color: rgb(142, 145, 138);
-}
+    overflow: hidden;
+    max-height: 100vh;
+  }
+  
+
 
 .container {
     background-color: rgb(255, 230, 0);
@@ -57,4 +61,26 @@ body {
     width: 200px;
     height: 300px;
     margin: 375px 0px;
+}
+
+main{
+  padding: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: #134e4e;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:active, a:visited, a:link {
+    color: white;
+    text-decoration: none;
 }

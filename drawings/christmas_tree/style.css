@@ -19,6 +19,9 @@ body {
         rgba(74, 224, 242, 1) 42%,
         rgba(0, 103, 142, 1) 78%
     );
+
+    overflow: hidden;
+    max-height: 100vh;
 }
 
 .container {
@@ -210,4 +213,27 @@ body {
 .b9 {
     bottom: 35%;
     left: 64%;
+}
+
+
+main{
+  padding: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: #134e4e;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:active, a:visited, a:link {
+    color: white;
+    text-decoration: none;
 }

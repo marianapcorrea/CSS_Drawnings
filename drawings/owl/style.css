@@ -13,6 +13,9 @@ body {
     justify-content: center;
     align-items: center;
     background: #a5c0d6;
+    
+    overflow: hidden;
+    max-height: 100vh;
 }
 
 .container{
@@ -257,4 +260,27 @@ border-radius:50px;
 .foot::after, .foot::before {
     content: "";
     margin: 0 5px
+}
+
+
+main{
+  padding: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: #134e4e;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:active, a:visited, a:link {
+    color: white;
+    text-decoration: none;
 }
